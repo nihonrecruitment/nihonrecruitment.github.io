@@ -36,19 +36,7 @@ section {
     margin: 2em 0;
 }
 
-.welcome {
-    background-color: #fff;
-    padding: 2em;
-    border-radius: 8px;
-}
-
-.job-search {
-    background-color: #e9e9e9;
-    padding: 2em;
-    border-radius: 8px;
-}
-
-.services, .about, .contact {
+.welcome, .job-search, .services, .about, .contact {
     background-color: #fff;
     padding: 2em;
     border-radius: 8px;
@@ -83,4 +71,12 @@ button {
 
 button:hover {
     background-color: #555;
+}
+
+.job {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e9e9e9;
 }
